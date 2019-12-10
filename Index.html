@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 12pt;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgba(239,235,182,1.00);
+}
+p {
+    width: 50%;
+    background-color: rgba(243,207,247,1.00);
+    position: relative;
+    left: 25%;
+    text-align: justify;
+}
+h2 {
+    text-transform: uppercase;
+}
+ul {
+    background-color: rgba(208,225,155,1.00);
+    width: 20%;
+    list-style-image: url(pen.png);
+    border-radius: 20px;
+    border: 2px solid brown;
+}
+ol {
+    background-color: rgba(208,225,155,1.00);
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid brown;
+    /* [disabled]list-style-image: url(pen.png); */
+    list-style-type: decimal;
+}
+img {
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+}
+video {
+    width: 25%;
+    position: relative;
+    left: 25%;
+}
+audio {
+    position: relative;
+    left: 25%;
+    width: 300px;
+    height: 25px;
+}
+table {
+    width: 50px;
+    border: 5px solid rgba(0,0,0,1.00);
+    background-color: rgba(224,184,221,1.00);
+    clear: left;
+}
+td {
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(195,232,139,1.00);
+}
+th {
+    text-transform: uppercase;
+    background-color: rgba(253,170,15,1.00);
+}
+caption {
+    font-weight: bold;
+    color: rgba(255,0,0,1.00);
+    font-size: large;
+    text-transform: uppercase;
+}
+.cellule-plus {
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: rgba(234,174,236,1.00);
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('CSS3-2.jpg')">
+<h2>Ma première page HTML avec le CNFDI</h2>
+<p><img src="HTML.jpg" alt="IMAGE ABSENTE" width="960" height="642" id="HTML" title="CODE HTML">HTML5 (HyperText Markup Language 5) est la dernière révision majeure du HTML (format de données conçu pour représenter les pages web). Cette version a été finalisée le 28 octobre 2014. HTML5 spécifie deux syntaxes d'un modèle abstrait défini en termes de DOM : HTML5 et XHTML5. Le langage comprend également une couche application avec de nombreuses API, ainsi qu'un algorithme afin de pouvoir traiter les documents à la syntaxe non conforme. Le travail a été repris par le W3C en mars 2007 après avoir été lancé par le WHATWG. Les deux organisations travaillent en parallèle sur le même document afin de maintenir une version unique de la technologie. Le W3C clôt les ajouts de fonctionnalités le 22 mai 2011, annonçant une finalisation de la spécification en 2014, et encourage les développeurs Web à utiliser HTML 5 dès ce moment. Fin 2016, la version 5.1 est officiellement publiée et présente plusieurs nouveautés qui doivent faciliter le travail des développeurs d'applications Web.<br><br>L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C’est un langage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS). HTML est inspiré du Standard Generalized Markup Language (SGML). Il s'agit d'un format ouvert.<br></p>
+<video title="CODE HTML" preload="auto" controls="controls" autoplay="autoplay" >
+  <source src="HTML-CSS.mp4" type="video/mp4">
+  <p>verifier vos plugins videos</p>
+</video>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('CSS','','CSS3-2.jpg',1)"><img src="CSS3-1.jpg" alt="image absente" width="960" height="539" id="CSS" title="CSS3 &amp; HTML5"></a>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.<br>
+Le concept de feuille de style est présent dès l'origine du World Wide Web : le premier navigateur web WorldWideWeb permet de mettre en forme les documents à l'aide de ce qui serait aujourd'hui considéré comme une « feuille de style utilisateur »2. De même, les navigateurs Viola en 1992 et Harmony en 1993 recourent à un mécanisme similaire permettant de déterminer le rendu des polices de caractères, des couleurs ou de l'alignement du texte. Il ne s'agit cependant pas de styles déterminés par l'auteur du document. HTML ne comportant pas non plus d'éléments de présentation dans ses premières années, une pression croissante s'exerce alors pour que les navigateurs permettent aux auteurs de déterminer eux-mêmes la présentation des pages web3, dans une démarche issue de la publication imprimée électronique. C'est dans ce contexte, en 1994-1995, que le tout nouveau Netscape Navigator introduit les premiers éléments HTML de présentation à l'initiative de Marc Andreessen, tandis qu'apparaissent concurremment les premières propositions de styles externesn. 1 : le « stylesheet proposal » de Pei Wei (créateur de Viola)4, les « Stylesheets for HTML » de Robert Raisch (O'Reilly)5, et enfin les « Cascading HTML Style Sheets » (CHSS) d'Håkon Wium Lie6. L'apparition de CSS répond à une volonté de « proposer une alternative à l'évolution du HTML d'un langage de structuration vers un langage de présentation »7. Une troisième voie de développement est également ouverte à la même époque : le langage de transformation DSSSL des documents SGML, élaboré par James Clark, suggère la possibilité d'un langage de styles qui ne soit pas seulement descriptif, et se rapproche d'un véritable langage de programmationn. 2. Cette voie est suivie par Netscape, qui propose en 1996 au W3C les « JavaScript-Based Style Sheets » (JSSS)8, implémentées par Netscape Navigator 4 en 1997.<br> </p>
+<audio preload="auto" controls="controls" >
+  <source src="Simple_Step.mp3" type="audio/mp3">
+</audio>
+<ul>
+  <li>Formation Dreamweaver</li>
+  <li>Formation Illustrator</li>
+  <li>Formation Photoshop </li>
+</ul>
+<ol>
+  <li>Adobe</li>
+  <li>Microsoft</li>
+  <li>Autodesk </li>
+</ol>
+<table width="100%" border="5">
+  <caption>
+  tableau récapitulatif
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="row">LANGAGES</th>
+      <th>ANNEES</th>
+      <th>DEVELOPPEUR</th>
+    </tr>
+    <tr>
+      <td class="cellule-plus" scope="row">HTML</td>
+      <td>1992</td>
+      <td>Tim Berners-Lee</td>
+    </tr>
+    <tr>
+      <td class="cellule-plus" scope="row">CSS</td>
+      <td>1990</td>
+      <td>W3C</td>
+    </tr>
+    <tr>
+      <td class="cellule-plus" scope="row">JAVA</td>
+      <td>1995</td>
+      <td>James Gosling et Patrick Naughton</td>
+    </tr>
+    <tr>
+      <td class="cellule-plus" scope="row">PHP</td>
+      <td>1994</td>
+      <td>Rasmus Lerdorf</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
